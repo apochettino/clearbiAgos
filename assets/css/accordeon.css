@@ -1,0 +1,148 @@
+
+@font-face {
+    font-family: AkrobatBold;
+    src: local("Akrobat Bold"),
+    local("Akrobat-Bold"),
+    url("../../img/font/Akrobat-Bold.ttf");
+    font-weight: bold;
+  }
+
+@font-face {
+    font-family: AkrobatRegular;
+    src: local("Akrobat Regular"),
+    local("Akrobat-Regular"),
+    url("../../img/font/Akrobat-Regular.ttf");
+    font-weight: regular;
+}
+
+
+@font-face {
+    font-family: AkrobatLight;
+    src: local("Akrobat Light"),
+    local("Akrobat-Light"),
+    url("../../img/font/Akrobat-Light.ttf");
+    font-weight: light;
+  }
+
+  @font-face {
+    font-family: AkrobatThin;
+    src: local("Akrobat Thin"),
+    local("Akrobat-Thin"),
+    url("../../img/font/Akrobat-Thin.ttf");
+    font-weight: Thin;
+  }
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.newAccordion {
+
+    margin-bottom: 7vh ;
+}
+
+
+.newAccordion h2 {
+
+    font-family: AkrobatRegular;
+    font-size: 64px;
+    margin: 50px 0px 30px 0px;
+}
+
+.newAccordion span{
+
+    font-family: AkrobatBold;
+    font-size: 64px;
+    color: rgba(67, 97, 238, 1);
+
+}
+
+
+.newAccordionLabel {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: #000;
+    font-weight: 500;
+
+}
+
+.card-header p {
+
+   
+    text-decoration: none !important;
+}
+
+
+
+.accordion .card-header {
+
+    border-bottom: 1px solid black !important ;
+}
+
+.card {
+
+    border-radius: 0% !important ;
+}
+
+.card-header {
+
+    background-color: #fff !important;
+    border-radius: 0%;
+    border-bottom: 1px solid black !important ;
+}
+
+.card-header:hover button {
+
+    color: #fff !important;
+   
+}
+
+.card-header:hover {
+
+    background-color: #4361EE!important;
+    color: #fff !important;    /*no esta funcionando*/
+    
+}
+
+
+
+.card {
+
+    border: none !important;
+}
+.text-dentro{
+
+    margin-left: 30px;
+}
+.text-headInter {
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px !important;
+    color: #4361EE; 
+}
+
+.text-interno {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 24px !important;
+    color: #4361EE; 
+    font-weight: 300;
+}
+
+.text-dentro button {
+
+    background-color: #4361EE1A;
+    border-radius: 50px;
+    border-color: #2045eb00;
+    font-size: 1.2rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;    
+    color: #4361EE;
+    height: 60px; 
+    
+
+}
